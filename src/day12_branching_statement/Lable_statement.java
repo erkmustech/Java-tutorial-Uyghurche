@@ -2,7 +2,7 @@ package day12_branching_statement;
 
 public class Lable_statement {
 	public static void main(String[] args) {
-		
+		//label statement is used to cancel whole code differently . 
 		int i=0;
 		outer: 
 			do {

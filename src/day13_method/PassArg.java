@@ -11,11 +11,15 @@ public class PassArg {
 	}
 
 	private static void score(String n) {
+		
 		System.out.println(n+" ,sorry no score");
 		
 	}
 
 	private static void score(String m, int i) {
+		if(m=="max") {
+			i=i-5;
+		}
 		System.out.println(m+", your score is "+ i);
 		
 	}

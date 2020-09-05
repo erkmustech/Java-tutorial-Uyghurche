@@ -47,7 +47,61 @@ public class Tasks {
 			System.out.println("b is big");
 		}
 		
+		System.out.println("----59-----");
+		
+		payCalc(80,10);
+		payCalc(24, 40);
+		
+		
+		
 	}
+
+	private static void payCalc(double h,double p) {
+		int hours;
+		double pay=h*p;
+		System.out.println(pay);
+		
+		
+		System.out.println("---60----");
+		calc(4,5,"+");
+		calc(78,88,"*");
+		calc(237283,87237723,"-");
+		calc(73434,22838,"/");
+		
+		
+		
+		
+	}
+
+	private static void calc(double i, double j, String ope) {
+		switch(ope) {
+		case "+":
+         System.out.println(i+j);
+         break;
+		case "-":
+	         System.out.println(i-j);
+	         break;
+		case "*":
+	         System.out.println(i*j);
+	         break;
+		case "/":
+	         System.out.println(i/j);
+	         break;
+	         default:
+	         System.out.println("invlaid operator");
+		
+	}
+		
+		System.out.println("------61-----");
+		
+		ageclc(1989, 2020);
+		
 	
 
+}
+
+	private static void ageclc(int i,int j) {
+		System.out.println("your age is "+(j-i));
+		
+	}
 }

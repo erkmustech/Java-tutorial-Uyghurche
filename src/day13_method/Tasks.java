@@ -94,14 +94,40 @@ public class Tasks {
 		
 		System.out.println("------61-----");
 		
-		ageclc(1989, 2020);
+		ageclc(1978, 2020);
+		ageclc(1989);
 		
-	
+			
 
 }
+
+	private static void ageclc(int i) {
+		int cy=2020;
+		int age=cy-i;
+		System.out.println("your age is "+age);
+		
+	}
 
 	private static void ageclc(int i,int j) {
 		System.out.println("your age is "+(j-i));
-		
+			
+	
+	
+	System.out.println("-----63-----");
+	
+	calci(12,21,19);
+	}
+
+	private static void calci(int i, int j, int k) {
+		if(i>j&&i>k) {
+			System.out.println("i is biggest");
+		}if(j>i&&j>k) {
+			System.out.println("j is biggest");
+		}if(k>i&&k>j) {
+			System.out.println("k is biggest");
+		}
 	}
 }
+		
+		
+	

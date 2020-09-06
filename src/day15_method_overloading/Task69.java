@@ -12,25 +12,34 @@ prime number, or false otherwise.
 • Note: 0 and 1 are not prime numbers. The 2 is the only even prime number because all the other even numbers 
 can be divided by 2.
 		 */
-		
-		System.out.println(isPrime(19));
-		System.out.println(isPrime(9));
-		System.out.println(isPrime(1));
-		System.out.println(isPrime(9299));
+		int num=89;
+		if(isPrime(num)) {
+			System.out.println(num+" is prime number");
+			
+		}else {
+			System.out.println(num+" is not prime number");
+		}
+
 		
 		
 	}
 
 	private static boolean isPrime(int i) {
-		if(i==2||i==1) {
-			return true;
-		}
-		else if(i%2==0||i%3==0||i%4==0) {
-			return false;
+		boolean flag=true;
+		if(i==2||i==1||i==3) {
+			flag=true;
 		}else {
-			return true;
-		}
-		
-	}
+		  for(int n=2;n<i;n++) {
+		      if(i%n==0) {
+			    flag= false;
 
+		}
+		    
+	  }
+	}
+		return flag;
+  }
 }
+
+
+

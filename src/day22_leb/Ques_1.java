@@ -19,7 +19,7 @@ helloName("Bob") → "Hello Bob!" helloName("Alice") → "Hello Alice!" helloNam
 	}
 
 	private static String helloName(String name) {
-		String re="hello ".concat(name);
+		String re="hello ".concat(name).concat("!");
 		
 		return re;
 		

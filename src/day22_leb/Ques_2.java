@@ -17,8 +17,9 @@ makeAbba("Hi", "Bye") → "HiByeByeHi" makeAbba("Yo", "Alice") → "YoAliceAlice
 	}
 
 	private static String makeAbba(String a, String b) {
-		String c=a.concat(b).concat(b).concat(a);
-		return c;
+//		String c=a.concat(b).concat(b).concat(a);
+		return a+b+b+a;
+//		return c;
 		
 	}
 

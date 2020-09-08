@@ -8,7 +8,7 @@ public class Ques_10 {
 		 such as with "edited".
 frontAgain("edited") → true frontAgain("edit") → false frontAgain("ed") → true
 		 */
-		boolean s1=frontAgain("qedited");
+		boolean s1=frontAgain("edited");
 		System.out.println(s1);
 	}
 	public static boolean frontAgain(String s) {

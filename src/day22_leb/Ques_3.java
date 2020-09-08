@@ -12,7 +12,7 @@ extraEnd("Hello") → "lololo" extraEnd("ab") → "ababab" extraEnd("Hi") → "H
 		String s1=extraEnd("Hello");
 		System.out.println(s1);
 		
-		String s2=extraEnd("Hi");
+		String s2=extraEnd("H");
 		System.out.println(s2);
 		
 	}
@@ -20,11 +20,12 @@ extraEnd("Hello") → "lololo" extraEnd("ab") → "ababab" extraEnd("Hi") → "H
 	private static String extraEnd(String s) {
 		String ns="";
 		if(s.length()>=2) {
+//			s=dum+dum+dum
 			for(int i=0;i<3;i++) {
 			ns+=s.substring(s.length()-2);
 			}
 		}else {
-			return "no";
+			return "invalid string";
 		}
 		return ns; 
 	}

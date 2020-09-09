@@ -6,5 +6,6 @@
     "**/.factorypath": true
   },
   "editor.fontFamily": "DejaVu Sans Mono, monospace",
-  "workbench.editor.enablePreview": false
+  "workbench.editor.enablePreview": false,
+  "screencastMode.fontSize": 40
 }

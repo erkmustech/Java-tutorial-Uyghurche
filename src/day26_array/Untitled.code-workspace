@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "Summer2019EuropeTestNGProject",
+			"path": "../../../Summer2019EuropeTestNGProject"
+		}
+	],
+	"settings": {
+		"workbench.editor.enablePreview": false,
+		"screencastMode.fontSize": 40
+	}
+}

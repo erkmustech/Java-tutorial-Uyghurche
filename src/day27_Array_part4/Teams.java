@@ -16,6 +16,7 @@ public static void main(String[] args) {
 
     System.out.println("first player of the first team :");
     System.out.println(team[0][1]);
+    System.out.println("done");
 
 
 

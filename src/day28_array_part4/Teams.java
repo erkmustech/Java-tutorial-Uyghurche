@@ -1,9 +1,9 @@
-package day27_Array_part4;
+package day28_array_part4;
 
 public class Teams {
 public static void main(String[] args) {
   
-  Sting[][] teams=new Strig [2][4];
+  String[][] team=new String [2][4];
   team[0][1]="Tony";
   team[0][2]="Joen";
   team[0][3]="Biden";

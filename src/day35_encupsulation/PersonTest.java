@@ -4,14 +4,10 @@ public class PersonTest {
 
 	public static void main(String[] args) {
 		
-		Person p=new Person();
+		Person p1 = new Person("Mike",-25,'M');
 		
-		p.name="mike";
-		
-		p.getAge(20);
-		p.setGender('M');
-		
-		p.print();
+		p1.setAge(30);
+		System.out.println(p1.getAge());
 		
 	
 		

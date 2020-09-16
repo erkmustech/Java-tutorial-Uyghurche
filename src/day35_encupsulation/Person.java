@@ -1,32 +1,35 @@
 package day35_encupsulation;
 
 public class Person {
-	public String name;
-	private int age=20;
-	private char gender;
+	private String name;
+	private int age;
+	public char gender;
 	
 	
-	public void setAge() {
-		if(age>0) {
-			this.age=age;
-		}
-	}
 	
-	public int getAge(int age) {
-		return age; 
-	}
 	
 
-	public char getGender() {
-		return gender;
-	}
 
-	public void setGender(char gender) {
+	public Person(String name, int age, char gender) {
+		setAge(age);
+		setName(name);
 		this.gender = gender;
 	}
 
-	public void print() {
-		System.out.println("his name is : "+name+" and he is "+age+"gender is "+gender);
+
+	public String getName() {
+		return name;
 	}
 	
+	
+	public void setName(String name) {
+		//condition
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
 }

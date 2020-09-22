@@ -4,6 +4,13 @@ public class VehicleTest {
 
 	public static void main(String[] args) {
 		
+//		int i=-3;
+//		do {
+//			i=i+3;
+//		}while(i<10); 
+//			System.out.println(i);
+		
+		
 		Car c=new Car();
 		c.display();
 		
@@ -22,5 +29,9 @@ class Car extends Vehicle{
 	void display(){
 		System.out.println("max s is"+super.maxS);
 		System.out.println("maxium speed is "+maxS);
+		
+		
+		
+		
 	}
 }
